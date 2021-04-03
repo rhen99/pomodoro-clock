@@ -1,0 +1,12 @@
+.Timer {
+}
+.TimerCount {
+  text-align: center;
+  font-size: 50px;
+}
+.TimerType {
+  text-align: center;
+}
+.ten-seconds {
+  color: #bb0000;
+}

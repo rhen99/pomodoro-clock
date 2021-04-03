@@ -1,0 +1,32 @@
+.BreakLength {
+  flex: 1;
+}
+.BreakLengthActions {
+  display: flex;
+  justify-content: center;
+}
+.BreakLengthTitle {
+  text-align: center;
+  margin: 1rem 0;
+}
+.BreakTimeCount {
+  display: inline-block;
+  padding: 0 0.5rem;
+  font-size: 20px;
+  font-weight: 700;
+}
+.Increase,
+.Decrease {
+  background-color: #6700cf;
+  border: none;
+  padding: 8px;
+  transition: transform 0.2s;
+}
+.Increase:active,
+.Decrease:active {
+  transform: scale(0.8);
+}
+.Increase:disabled,
+.Decrease:disabled {
+  display: none;
+}

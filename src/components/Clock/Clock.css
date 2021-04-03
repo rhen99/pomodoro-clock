@@ -1,0 +1,29 @@
+.Clock {
+  margin-top: 3rem;
+}
+.ClockSettings {
+  display: flex;
+  padding: 2rem 0;
+}
+.ClockControls {
+  text-align: center;
+}
+.Play,
+.Pause,
+.Reset {
+  display: inline-block;
+  margin: 0 0.5rem;
+  background-color: #6700cf;
+  border: none;
+  padding: 8px;
+  transition: transform 0.2s;
+}
+.Play:active,
+.Pause:active,
+.Reset:active {
+  transform: scale(0.8);
+}
+.TimerCount {
+  text-align: center;
+  font-size: 50px;
+}
